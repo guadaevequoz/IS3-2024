@@ -1,0 +1,90 @@
+primer fecha 2019:
+
+1) a. El modelo de calidad de producto definido por la ISO/IEC 25010 indica la division de calidad entre: seguridad, facilidad de uso, eficiencia, mantenimiento, entre otros. Incluye caracteristicas de calidad interna (tiene que ver con cuestiones intrisecas), externas (tiene que ver con la apariencia y demás) y de uso (tiene que ver con el uso del usuario para con la aplicación).
+
+b. Se entiende por calidad de datos a la calidad con la que los datos ingresan al sistema, indica cuanto cumplen con las necesidades implicitas y explicitas en determinadas condiciones de uso. Hay dos puntos de vista:
+- Inherente: capacidad de los datos de cumplir las necesidades implicitas y explicitas, por ej: exactitud, correctitud, actualidad, entre otros.
+- Dependiente del sistema: capacidad en que el sistema de información preserva la integridad de los datos, por ej: portabilidad, disponibilidad y recuperabilidad.
+
+c. no sé combinar métricas!
+
+2) a. La auditoria de sistemas de información es el proceso de recolectar y evaluar evidencia sobre si el SI:
+- preserva activos
+- mantiene la integridad de los datos
+- usa los recursos eficientemente
+- cumple con eficacia los objetivos
+
+b. La opinion de un auditor puede ser:
+- adversa: ocurrieron perdidas materiales o economicas
+- excusada: no se emite opinión
+- con calificacion: ocurrieron perdidas pero no un número considerable
+- sin calificacion: no ocurrieron perdidas materiales o economicas
+
+c. El abuso infórmatico tiene consecuencias mucho más serias que el fraude comercial, por ej: perdida de datos, de registros. Además, con el abuso informatico puede ponerse en riesgo la vida de una persona incluso.
+
+3) a. Se entiende por calidad de procesos de desarrollo de software a la medición de prácticas y metodologias aplicadas durante el ciclo de vida y desarrollo de un software. Se puede medir con los estandares:
+- 15504: mide la madurez (aplicacion del mismo proceso a diferentes actividades de la organizacion) y la capacidad (de ser adaptado).
+- 12207: indica buenas prácticas para aplicar durante el ciclo de vida del proyecto.
+- 33000: establece la gestión de procesos: cómo medirlos, evaluarlos, etc.
+
+b. La ISO 9001 se aplica teniendo en cuenta requisitos mínimos y la guía de aplicación otorgada por las directrices de la ISO 90003.
+
+c. 
+   i. "pocos" es ambiguo, se necesita precisión. La forma correcta sería: "Se aceptan al menos 5 errores en los requerimientos funcionales implementados." 
+   ii. no se me ocurre :/
+
+4) a. Un proyecto es un conjunto de actividades y tareas que tienen el mismo fin. Tienen un presupuesto limitado, debe ser llevado a cabo en una determinada cantidad de tiempo y se deben seguir los requerimientos. No tiene gran alcance y los cambios se deben mantener al mínimo. 
+Un programa es un conjunto de proyectos interelacionados y combinados para lograr y máximizar los objetivos. Tienen un gran alcance y se esperan cambios. 
+
+b. El triángulo de alcance determina el dinamismo de los parámetros de un proyecto. En sus lados tiene el tiempo, recursos y costo y en la superficie el alcance y calidad. El responsable del proyecto debe administrarlos como independientes. Se trata de explicar que la variacion de uno de los parámetros afecta a los demás.
+
+c. 
+   i. Stakeholders: empleados, CEO de la empresa y encargados del desarrollo.
+   ii.           alto           medio          bajo
+      alto   empleados                 encargados
+     medio CEO                            
+      bajo 
+
+---------------------------------------------------------------------------------------
+
+Calidad de Software
+1. La calidad de producto de software mide cuanto un producto final de software cumple con los requerimientos establecidos y la satisfaccion final del cliente. Existen tres modelos de calidad:
+- ISO/IEC 9126
+- ISO/IEC 14598
+- ISO/IEC 25000: reemplaza los dos de arriba. Establece una clasificacion de calidad (25010 --> seguridad, eficiciencia, facilidad de uso, etc.), formas de medir (25023 --> establece métricas aplicables a cada categoria) y plan de evaluacion de calidad (establecer requisitos, especificar la evaluacion, diseñar la evaluacion, ejecutar la evaluación y finalizar).
+
+2. La calidad de procesos de software miden las prácticas y metodologias llevadas a cabo durante el ciclo de vida y desarrollo del software. Cuenta con los modelos:
+- 15504: evalua la capacidad de adaptabilidad y la madurez (cuando una organizacion emplea el mismo proceso para todas las actividades).
+- 12207: establece buenas practicas a implementar durante el ciclo de vida de un proyecto, indica qué hacer pero no cómo hacerlo.
+- 33000: indica la gestión de procesos, cómo evaluarlos, medirlos, etc.
+
+3 y 4 no sé
+
+Auditoria de sistemas
+1. El control de sistemas de informacion es un sistema ya que previene, detecta y corrige eventos ilegales de un programa siguiendo un proceso donde se recibe una entrada, se trabaja sobre ella, produce una salida y se recibe una retroalimentación.
+
+2. El riesgo de auditoria es el riesgo de que el auditor falle al detectar pérdidas materiales o calcular mal balances. Los tipos de riesgo son:
+- deseado: es el riesgo que se desea correr
+- ineherente: posibiliad de perdidas materiales o mal calculo de balances
+- de control: probabilidad que los controles fallen al detectar, corregir o prevenir
+- de deteccion: probabilidad de que los procedimientos de auditoria fallen
+
+3. 
+   i. Hay errores al registrar la asistencia de los empleados --> se relizan despidos innecesarios
+   ii. Se guardan mal los registros de impuestos --> se aumentan los impuestos
+   iii. Se calcula mal el número de estudiantes activos --> mala administracion de aulas
+
+Administracion de proyectos
+1. La gestión de stakeholders es el proceso por el cual se conoce a los stakeholders y se trata de mantener el interes de los mismos y más compromiso para con el proyecto. Algunas de las actividades llevadas a cabo son:
+- identificacion de los stakeholders: pueden ser externos o internos, se realiza el mapa de stakeholders
+- analisis de stakeholders: hay que evaluar el impacto que pueden tener, se realiza la matriz de stakeholders
+- comunicacion: es la parte más importante, hay que evaluar qué se comunica, cómo se comunica, cuándo y dónde, es importante tener buenos canales de comunicación.
+
+2. Las tecnicas de estimacion de esfuerzo pueden ser:
+- Técnica delphi: se calcula teniendo en cuenta a todo el equipo y se realizan 3 pasadas. En la primera todos realizan una estimación, en la segunda se eliminan extremos y se estima nuevamente, en la tercera se hace un promedio.
+- Técnica de los 3 puntos: se realizan 3 estimaciones: positiva, media y pesimista. Al final se realiza el calculo: Estimacion = (positiva + 4* media + optimista) / 6.
+
+3. 
+   i. Lo clasifico con el tipo "C", ya que su duración no debería ser tanta (por la cantidad de empleados a gestionar), además de que no tiene un gran numero de complejidad y se puede realizar con tecnologias básicas. En el tipo C los parámetros son: Duracion: 3-9 meses, Riesgo bajo, Complejidad baja, Tecnologia básica.
+  ii. Algunas tareas son: evaluar la tecnologia a usar, evaluar la arquitectura que tendrá el programa y cuantas personas se necesitaran para desarrollar. Estan las 3 desarrolladas en la parte de planificar el proyecto.
+   iii. El proyecto puede fracasar por mala estimación y administración de tiempo, por lo tanto no se llegó al objetivo. Tambien puede fracasar por ambiguedad en los requerimientos o sino por personal mal calificado para las tareas o incluso mala delegacion de responsabilidades.  
